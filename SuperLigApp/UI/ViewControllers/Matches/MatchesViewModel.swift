@@ -17,6 +17,7 @@ class MatchesViewModel {
     var rounds = [Int]()
     let service = Webservice()
     var delegate: MatchesVMDelegate?
+    var selectedRound: String?
     
     func fetchRounds() {
         service.downloadMatches { result in

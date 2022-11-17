@@ -24,6 +24,8 @@
 		B71664CB29268437000D1422 /* ClubsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71664CA29268437000D1422 /* ClubsViewModel.swift */; };
 		B71664CD29268FB1000D1422 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71664CC29268FB1000D1422 /* Array+Extension.swift */; };
 		B71664D0292696C9000D1422 /* FixturesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71664CF292696C9000D1422 /* FixturesVC.swift */; };
+		B71664D22926978B000D1422 /* FixturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71664D12926978B000D1422 /* FixturesViewModel.swift */; };
+		B71664D429269A7C000D1422 /* FixturesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71664D329269A7C000D1422 /* FixturesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		B71664CA29268437000D1422 /* ClubsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsViewModel.swift; sourceTree = "<group>"; };
 		B71664CC29268FB1000D1422 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		B71664CF292696C9000D1422 /* FixturesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesVC.swift; sourceTree = "<group>"; };
+		B71664D12926978B000D1422 /* FixturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesViewModel.swift; sourceTree = "<group>"; };
+		B71664D329269A7C000D1422 /* FixturesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				B71664CF292696C9000D1422 /* FixturesVC.swift */,
+				B71664D12926978B000D1422 /* FixturesViewModel.swift */,
+				B71664D329269A7C000D1422 /* FixturesTableViewCell.swift */,
 			);
 			path = Fixtures;
 			sourceTree = "<group>";
@@ -254,6 +260,7 @@
 				B71664CB29268437000D1422 /* ClubsViewModel.swift in Sources */,
 				B716649F292670E6000D1422 /* MatchesVC.swift in Sources */,
 				B71664B629267367000D1422 /* MatchesTableViewCell.swift in Sources */,
+				B71664D429269A7C000D1422 /* FixturesTableViewCell.swift in Sources */,
 				B716649B292670E6000D1422 /* AppDelegate.swift in Sources */,
 				B71664D0292696C9000D1422 /* FixturesVC.swift in Sources */,
 				B71664C7292682F2000D1422 /* ClubsModel.swift in Sources */,
@@ -264,6 +271,7 @@
 				B71664B9292674DD000D1422 /* Webservice.swift in Sources */,
 				B71664C4292681C7000D1422 /* ClubsViewController.swift in Sources */,
 				B71664CD29268FB1000D1422 /* Array+Extension.swift in Sources */,
+				B71664D22926978B000D1422 /* FixturesViewModel.swift in Sources */,
 				B716649D292670E6000D1422 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

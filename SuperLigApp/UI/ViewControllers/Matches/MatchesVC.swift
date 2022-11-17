@@ -20,6 +20,13 @@ class MatchesVC: UIViewController {
         viewModel.fetchRounds()
         viewModel.delegate = self
     }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toFixturesVC" {
+            let fixtureVC = segue.destination as! FixturesVC
+            fixtureVC.viewModel.choosenRound = viewModel.selectedRound
+        }
+    }
 }
 
 extension MatchesVC : UITableViewDelegate, UITableViewDataSource {
@@ -36,6 +43,8 @@ extension MatchesVC : UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let roundNumber = viewModel.rounds[indexPath.row]
+        viewModel.selectedRound = "Round \(roundNumber)"
         performSegue(withIdentifier: "toFixturesVC", sender: nil)
     }
 }
